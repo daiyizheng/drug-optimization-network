@@ -1,0 +1,50 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": false, 
+            "args": [
+                "--filename_of_receptor", "tutorial/PARP/4r6eA_PARP1_prepared.pdb",
+                "--center_x"," -70.76",
+                "--center_y", "21.82",
+                "--center_z", "28.33",
+                "--size_x", "25.0",
+                "--size_y", "16.0",
+                "--size_z", "25.0",
+                "--source_compound_file", "source_compounds/naphthalene_smiles.smi",
+                "--root_output_folder", "./",
+                "--number_of_mutants_first_generation", "50",
+                "--number_of_crossovers_first_generation", "50",
+                "--number_of_mutants", "50",
+                "--number_of_crossovers", "50",
+                "--top_mols_to_seed_next_generation", "50",
+                "--number_elitism_advance_from_previous_gen", "50",
+                "--number_elitism_advance_from_previous_gen_first_generation", "10", 
+                "--diversity_mols_to_seed_first_generation", "10",
+                "--diversity_seed_depreciation_per_gen", "10",
+                "--num_generations", "5",
+                "--mgltools_directory", "/DYZ/dyz1/download/mgltools_x86_64Linux2_1.5.7",
+                "--number_of_processors", "1",
+                "--scoring_choice", "VINA",
+                "--LipinskiLenientFilter",
+                "--start_a_new_run", 
+                "--rxn_library", "click_chem_rxns",
+                "--selector_choice", "Rank_Selector",
+                "--dock_choice", "VinaDocking",
+                "--max_variants_per_compound", "5", 
+                "--redock_elite_from_previous_gen", "False",
+                "--generate_plot", "True",
+                "--reduce_files_sizes", "True",
+                "--use_docked_source_compounds", "True"
+            ]
+        }
+    ]
+}
