@@ -1,7 +1,7 @@
 # 分子结构优化模型汇总
 ## 模型
 ### AutoGrow4
-- [Paper: ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7165399/)
+- [Paper: AutoGrow4: An open-source genetic algorithm for de novo drug design and lead optimization](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7165399/)
 - [Code:](https://durrantlab.pitt.edu/autogrow4/)
 - [论文解析](https://blog.csdn.net/weixin_42486623/article/details/131392519)
 - [源码解析](https://blog.csdn.net/weixin_42486623/article/details/131409905)
